@@ -12,7 +12,7 @@ public class Swipe : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
 
-            Debug.Log("finger ID 3" + touch.fingerId);
+           
             Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
             touchPosition.z = 0f;
 
